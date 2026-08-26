@@ -285,7 +285,6 @@
   <footer class="border-t border-line/70 py-6">
     <div class="max-w-6xl mx-auto px-5 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-muted">
       <span>CareerLocate / مسار — أداة اكتشاف فرص العمل والشركات في مصر والمنطقة</span>
-      <span class="flex items-center gap-1.5"><i class="fa-solid fa-bolt text-gold"></i> مدعوم بأتمتة n8n</span>
     </div>
   </footer>
 
@@ -317,7 +316,7 @@
   const errorMessage    = document.getElementById('errorMessage');
   const retryBtn        = document.getElementById('retryBtn');
 
-  const IS_DEMO = !N8N_WEBHOOK_URL || N8N_WEBHOOK_URL.includes('YOUR_N8N_WEBHOOK_URL_HERE');
+  const IS_DEMO = !N8N_WEBHOOK_URL || N8N_WEBHOOK_URL.includes('https://hazem110224.app.n8n.cloud/webhook/34dcdda4-7dd0-4c94-a69c-a41858a7953c');
   if (IS_DEMO) demoNote.classList.remove('hidden');
 
   let lastQuery = null;
